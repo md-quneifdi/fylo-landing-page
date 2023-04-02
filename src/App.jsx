@@ -12,13 +12,13 @@ import {
 
 function App() {
   return (
-    <div className="App bg-zinc-800 text-white">
+    <div className="App text-white bg-testBackground">
       <Navbar />
       <Hero />
       <AboutUs />
       <Services />
       <Products />
-      <Testimonials />
+      {/* <Testimonials /> */}
       <ContactUs />
       <Footer />
     </div>
